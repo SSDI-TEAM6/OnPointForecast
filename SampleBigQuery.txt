@@ -1,0 +1,1 @@
+SELECT * from `weathersource-com.pub_weather_data_samples.sample_weather_forecast_anomaly_us_zipcode_daily`  WHERE postal_code="10111" ORDER BY date_valid_std ;
