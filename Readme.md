@@ -19,8 +19,42 @@ Although this project will be primarily focused on analysis/research on the data
 ## Analysis Tool: BigQuery
 Details about BigQuery can be found here - https://cloud.google.com/bigquery
 
-## PREPROCESSING
+## DATA PREPROCESSING
 
+We are using Weather Source's OnPoint Climatology Data, which is essentially the statistics of weather over time. Climatology data can be useful in two ways - It allows users to compare weather to what should be ‘normal’ weather for a place and time. This allows for finding 'Anomalies' in the weather, that is, whether parameters like Temperature, Humidity, Air Pressure etc are 'Departing from Normal' . Often it’s the departure from normal that has the biggest influence on consumers and the greater the departure from normal the greater it's effect on customers and consequently, the Business.
+For this Project, we are considering United States climatology data for Hourly and Daily weather statistics.
+Data Columns:
+
+Postal Code
+Country Code
+Valid date/time (UTC)
+Day of Year (UTC)
+Hour of the day (UTC)
+Valid date/time (Local Time)
+Daylight Saving Time Offset (Minutes)
+Air Temperature (F)
+Wet Bulb Temperature (F)
+Dew Point Temperature (F)
+Feels Like Temperature (F)
+Wind Chill Temperature (F)
+Heat Index Temperature (F)
+Relative Humidity (percent)
+Specific Humidity (grams/kilogram)
+Surface Pressure (millibars)
+Pressure Tendency (millibars)
+Mean Sea Level Pressure (millibars)
+Wind Speed at 10 meter height (mph)
+Wind Direction at 10 meter height (degrees)
+Wind Speed at 80 meter height (mph)
+Wind Direction at 80 meter height (degrees)
+Wind Speed at 100 meter height (mph)
+Wind Direction at 100 meter height (degrees)
+Total Precipitation Amount (in)
+Total Snowfall Amount (in)
+Cloud Cover (percent)
+Solar Radiation (watts/m^2) 
+
+For this project we are using data from the year 2016 which is available on GCP.
 For this task we have implemented some sample queries to illustrate the depth of the dataset. You can view the results for a New York weather forecast in the ./results-20200407-131226.csv file
 
 ## RESEARCH QUESTION
