@@ -21,7 +21,7 @@ Details about BigQuery can be found here - https://cloud.google.com/bigquery
 
 ## DATA PREPROCESSING
 
-e are using Weather Source's OnPoint Climatology Data, which is essentially the statistics of weather over time. Climatology data can be useful in two ways - It allows users to compare weather to what should be ‘normal’ weather for a place and time. This allows for finding 'Anomalies' in the weather, that is, whether parameters like Temperature, Humidity, Air Pressure etc are 'Departing from Normal' . Often it’s the departure from normal that has the biggest influence on consumers and the greater the departure from normal the greater it's effect on customers and consequently, the Business.
+We are using Weather Source's OnPoint Climatology Data, which is essentially the statistics of weather over time. Climatology data can be useful in two ways - It allows users to compare weather to what should be ‘normal’ weather for a place and time. This allows for finding 'Anomalies' in the weather, that is, whether parameters like Temperature, Humidity, Air Pressure etc are 'Departing from Normal' . Often it’s the departure from normal that has the biggest influence on consumers and the greater the departure from normal the greater it's effect on customers and consequently, the Business.
 For this Project, we are considering United States climatology data for Hourly and Daily weather statistics.
 Data Columns:
 
