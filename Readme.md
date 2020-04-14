@@ -77,6 +77,20 @@ Swapnil Bokil
 Sahil Deshmukh  
 Shubham Gandhi  
 
+## EVALUATING MACHINE LEARNING RULES PERTAINING TO THE PROJECT
+
+### Don’t overthink which objective you choose to directly optimize:  
+
+In a time series analysis especially for weather forecasts, there are a large number of factors that affect the weather prediction and although there are a lot of tested foundational Machine Learning models that we can use to optimize our predictions, it is almost impossible to predict what causes the predictions to go wrong. We can see this task as a Black Box in which we don’t know what factors could lead to the forecast going wrong. But since we have the data in a variety of columns, applying the simplest of metrics to any of the feature columns could give us significant results.
+
+### The ML objective should be easy to measure and is a proxy for the "true" objective:  
+The training should be on a simple objective over which we can add a policy layer based on a rather simple logic, for example, even though our final objective is to detect why forecasts would go wrong, instead of focusing on it too much perhaps we could think about why they go right and what causes them to go right. We can maybe reverse engineer our way towards finding out why our predictions have lower precision.
+
+### Look for patterns in the measured errors and create new features:  
+
+This one is a bit general in terms of any Machine Learning model but in our case, we can deduce patterns from our false predictions. For example, if most of our predictions are false for the month of May, April and January, we can create a new feature column called season which would notify us that rains could be the case even in summer or spring and what percentage of days in summer are falsely predicted to be sunny.
+
+
 ## REFERENCES
 [1] Understanding, modeling and predicting weather and climate extremes: Challenges and opportunities
 JanaSillmann Thordis Thorarinsdottir Noel Keenlyside Nathalie Schaller Lisa V. Alexander Gabriel Hegerl Sonia I.Seneviratne Robert Vautard Xuebin Zhang Francis W.Zwiersi
