@@ -2,9 +2,9 @@
 
 ## ABOUT THE DATASET
 
-OnPoint Weather is a global weather dataset for business available for any lat/lon point and geographic area such as ZIP codes. OnPoint Weather provides a continuum of hourly and daily weather from the year 2000 to current time and a forward forecast of 45 days.
+OnPoint Weather is a global weather dataset for business available for any latitutde/longitude point and geographic area such as ZIP codes. OnPoint Weather provides a continuum of hourly and daily weather from the year 2000 to current time and a forward forecast of 45 days.
 Weather has a significant impact on businesses and accounts for hundreds of billions in lost revenue annually. OnPoint Weather allows businesses to quantify weather impacts and develop strategies to optimize for weather to improve business performance.
-The Dataset can be found here - console.cloud.google.com/marketplace/details/weathersource-com/weather-forecast
+The Dataset can be found at https://console.cloud.google.com/marketplace/details/weathersource-com/weather-forecast
 
 ## MOTIVE
 
@@ -64,7 +64,7 @@ As we can see in our analysis that the average anomalies in temperature changes 
 After this, we will ingest this data into GCP for querying and EDA. An alternative to ARIMA would be using Google Cloud Auto ML to train, predict, deploy and serve the model using their REST API.
 
 ## RESEARCH QUESTION
-Why do weather forecasts go wrong? We try to gain a logistical insight into how forecasting organizations undergo billions of dollars in loss every year.
+What patterns can we observe in weather forecast errors which we can analyze and debug? Optimizing these predictions by avoiding such errors in data can possibly save weather forecast companies billions of dollars in revenue.
 
 ## REPORT
 
