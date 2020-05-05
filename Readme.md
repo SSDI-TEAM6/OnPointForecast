@@ -76,7 +76,7 @@ The key takeaway from this plot is that all indices are affected globally. Sudde
 
 ![AvgTemp](charts/EDA_Page_1.jpg)
 ![AvgTempPct](charts/EDA_Page_2.jpg)
-![Dashboard](charts/Dashboard.jpg)
+![Dashboard](charts/EDA_Page_3.jpg)
 
 ## CONTRIBUTORS / GROUP MEMBERS
 
